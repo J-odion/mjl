@@ -4,6 +4,7 @@ import Link from "next/link"
 import { ShoppingCart, Menu, X } from "lucide-react"
 import { useCart } from "@/context/CartContext"
 import Cart from "./Cart"
+import Image from "next/image"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -19,7 +20,12 @@ export default function Header() {
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
             <Link href="/" className="font-bold text-xl">
-              MJL
+              <Image
+                src={"/logo.png"}
+                width={50}
+                height={50}
+                className="object-cover"
+              />
             </Link>
           </div>
 

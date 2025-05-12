@@ -88,7 +88,7 @@ export default function ProductCarousel({ items }) {
               />
               <div className="p-4 text-center">
                 <h3 className="font-semibold text-lg">{item.name}</h3>
-                <p className="text-gray-700">${item.price.toFixed(2)}</p>
+                <p className="text-gray-700">₦{item.price.toFixed(2)}</p>
               </div>
             </div>
           </div>

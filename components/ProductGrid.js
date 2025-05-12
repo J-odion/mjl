@@ -14,12 +14,13 @@ export default function ProductGrid({ products }) {
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage
   const currentProducts = products.slice(indexOfFirstProduct, indexOfLastProduct)
   const totalPages = Math.ceil(products.length / productsPerPage)
+  const phoneNumber = "+2349130749939"
 
   const handleOrderNow = (product) => {
     // Create WhatsApp message for single item
-    const message = `Hello, I would like to order:\n\n*${product.name}*\nPrice: $${product.price.toFixed(2)}\n\nThank you!`
+    const message = `Hello, I would like to order:\n\n*${product.name}*\nPrice: ₦${product.price.toFixed(2)}\n\nThank you!`
     const encodedMessage = encodeURIComponent(message)
-    window.open(`https://wa.me/?text=${encodedMessage}`, "_blank")
+    window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank")
   }
 
   return (
@@ -34,7 +35,7 @@ export default function ProductGrid({ products }) {
               <h3 className="font-semibold text-lg mb-1">{product.name}</h3>
               <p className="text-gray-600 text-sm mb-2">{product.description}</p>
               <div className="flex items-center justify-between">
-                <span className="font-bold">${product.price.toFixed(2)}</span>
+                <span className="font-bold">₦{product.price.toFixed(2)}</span>
                 <div className="flex space-x-2">
                   <button
                     onClick={() => addToCart(product)}

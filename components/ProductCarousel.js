@@ -69,7 +69,7 @@ export default function ProductCarousel({ items }) {
   }
 
   return (
-    <div className="relative h-[400px] overflow-hidden">
+    <div className="relative h-[500px] overflow-hidden">
       <div className="absolute inset-0 flex items-center justify-center">
         {items.map((item, index) => (
           <div
@@ -82,12 +82,12 @@ export default function ProductCarousel({ items }) {
               <Image
                 src={item.image || "/placeholder.svg"}
                 alt={item.name}
-                width={300}
-                height={300}
-                className="object-cover"
+                width={200}
+                height={200}
+                className="object-center"
               />
-              <div className="p-4 text-center">
-                <h3 className="font-semibold text-lg">{item.name}</h3>
+              <div className="p-4 h-20 text-center">
+                <h3 className="font-semibold text-sm">{item.name}</h3>
                 <p className="text-gray-700">₦{item.price.toFixed(2)}</p>
               </div>
             </div>

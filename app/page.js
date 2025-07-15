@@ -5,19 +5,22 @@ import Link from "next/link"
 
 export default function Home() {
   const fashionItems = [
-    { id: 1, name: "Summer Dress", price: 89.99, image: "/9.jpg" },
-    { id: 2, name: "Casual Jeans", price: 59.99, image: "/8.jpg" },
-    { id: 3, name: "Elegant Blouse", price: 49.99, image: "/7.jpg" },
-    { id: 4, name: "Formal Suit", price: 199.99, image: "/6.jpg" },
-    { id: 5, name: "Winter Coat", price: 129.99, image: "/5.jpg" },
+    { id: 1, name: "Depending on materia", price: 80000, image: "/f1.jpeg" },
+    { id: 2, name: "Depending on materia", price: 120000, image: "/f2.jpeg" },
+    { id: 3, name: "Depending on materia", price: 80000, image: "/f3.jpeg" },
+    { id: 4, name: "Depending on materia", price: 120000, image: "/f4.jpeg" },
+    { id: 5, name: "Depending on materia", price: 120000, image: "/f5.jpeg" },
+    { id: 5, name: "Depending on materia", price: 120000, image: "/f6.jpeg" },
+    { id: 5, name: "Depending on materia", price: 120000, image: "/f7.jpeg" },
+    { id: 5, name: "Depending on materia", price: 120000, image: "/f8.jpeg" },
   ]
 
   const foodItems = [
-    { id: 1, name: "Grilled Salmon", price: 24.99, image: "/4.jpg" },
-    { id: 2, name: "Beef Burger", price: 14.99, image: "/3.jpg" },
-    { id: 3, name: "Caesar Salad", price: 9.99, image: "/2.jpg" },
-    { id: 4, name: "Pasta Carbonara", price: 16.99, image: "/1.jpg" },
-    { id: 5, name: "Chocolate Cake", price: 7.99, image: "/3.jpg" },
+    { id: 1, name: "Afang soup & Snail", price: 13000, image: "/e1.jpeg" },
+    { id: 2, name: "Ogbono soup & Snail", price: 13000, image: "/e4.jpeg" },
+    { id: 3, name: "Vegetable soup & snail", price: 13000, image: "/e3.jpeg" },
+    { id: 4, name: "Egusi soup & snail", price: 13000, image: "/e2.jpeg" },
+    { id: 5, name: "Okra soup & snail", price: 13000, image: "/e4.jpeg" },
   ]
 
   return (
@@ -26,7 +29,7 @@ export default function Home() {
         <Hero
           height="h-[80vh]"
           slides={[
-            { title: "Welcome to Matriculated Global LTD", subtitle: "Fashion & Dining Excellence", backgroundImage:"/9.jpg" },
+            { title: "Welcome to Matriculate Global LTD", subtitle: "Fashion & Dining Excellence", backgroundImage:"/9.jpg" },
             { title: "Discover Our Latest Collection", subtitle: "Trendy & Stylish Fashion", backgroundImage:"/2.jpg" },
 
           ]}
@@ -36,7 +39,6 @@ export default function Home() {
 
       <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="mb-16">
-          
           <h2 className="text-3xl font-bold mb-8 text-center">Fashion Collection</h2>
           <ProductCarousel items={fashionItems} />
           <div className="mt-8 text-center">

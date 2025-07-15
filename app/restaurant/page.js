@@ -5,9 +5,9 @@ export default function RestaurantPage() {
   const foodItems = [
     {
       id: 1,
-      name: "Grilled Salmon",
-      price: 24.99,
-      image: "/1.jpg",
+      name: "Afang soup & snail",
+      price: 13000,
+      image: "/e1.jpeg",
       description: "Fresh salmon fillet grilled to perfection with herbs.",
     },
     {

@@ -7,19 +7,19 @@ export default function AboutPage() {
         height="h-[80vh]"
         slides={[
           { title: "About Us", subtitle: "Our Story & Vision", backgroundImage: "/3.jpg" },
-          { title: "Matriculated Global LTD", subtitle: "Fashion & Dining Excellence Since 2025", backgroundImage: "/5.jpg" },
+          { title: "Matriculate Global LTD", subtitle: "Fashion & Dining Excellence Since 2025", backgroundImage: "/5.jpg" },
         ]}
       />
 
       <section className="py-16 px-4 md:px-8 max-w-3xl mx-auto">
         <div className="bg-white shadow-lg rounded-lg p-8">
-          <h1 className="text-3xl font-bold mb-6 text-center">Matriculated Global LTD (MJL)</h1>
+          <h1 className="text-3xl font-bold mb-6 text-center">Matriculate Global LTD (MGL)</h1>
 
           <div className="mb-8">
             <h2 className="text-xl font-semibold mb-3">Company Information</h2>
             <ul className="space-y-2">
               <li>
-                <span className="font-medium">Company Name:</span> Matriculated Global LTD (MJL)
+                <span className="font-medium">Company Name:</span> Matriculate Global LTD (MGL)
               </li>
               <li>
                 <span className="font-medium">C.R. No:</span> 8353703
@@ -60,7 +60,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-xl font-semibold mb-3">Our Story</h2>
             <p className="text-gray-700 mb-4">
-              Matriculated Global LTD was founded with a vision to combine fashion excellence with culinary artistry.
+              Matriculate Global LTD was founded with a vision to combine fashion excellence with culinary artistry.
               Since our establishment in 2025, we have been committed to providing our customers with the finest fashion
               items and delicious food experiences.
             </p>

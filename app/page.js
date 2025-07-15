@@ -17,10 +17,36 @@ export default function Home() {
 
   const foodItems = [
     { id: 1, name: "Afang soup & Snail", price: 13000, image: "/e1.jpeg" },
+    { id: 1, name: "Afang soup & Fish", price: 13000, image: "/e1.jpeg" },
+    { id: 1, name: "Afang soup & Goat Meat", price: 13000, image: "/e1.jpeg" },
+    { id: 1, name: "Afang soup & Cow Meat", price: 13000, image: "/e1.jpeg" },
+    { id: 1, name: "Afang soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e1.jpeg" },
+
     { id: 2, name: "Ogbono soup & Snail", price: 13000, image: "/e4.jpeg" },
+    { id: 2, name: "Ogbono soup & Goat Meat", price: 13000, image: "/e4.jpeg" },
+    { id: 2, name: "Ogbono soup & Fish", price: 13000, image: "/e4.jpeg" },
+    { id: 2, name: "Ogbono soup & Cow Meat", price: 13000, image: "/e4.jpeg" },
+    { id: 2, name: "Ogbono soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e4.jpeg" },
+
     { id: 3, name: "Vegetable soup & snail", price: 13000, image: "/e3.jpeg" },
+    { id: 3, name: "Vegetable soup & Goat Meat", price: 13000, image: "/e3.jpeg" },
+    { id: 3, name: "Vegetable soup & Fish", price: 13000, image: "/e3.jpeg" },
+    { id: 3, name: "Vegetable soup & Cow Meat", price: 13000, image: "/e3.jpeg" },
+    { id: 3, name: "Vegetable soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e3.jpeg" },
+
     { id: 4, name: "Egusi soup & snail", price: 13000, image: "/e2.jpeg" },
+    { id: 4, name: "Egusi soup & Goat Meat", price: 13000, image: "/e2.jpeg" },
+    { id: 4, name: "Egusi soup & Fish", price: 13000, image: "/e2.jpeg" },
+    { id: 4, name: "Egusi soup & Cow Meat", price: 13000, image: "/e2.jpeg" },
+    { id: 4, name: "Egusi soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e2.jpeg" },
+
     { id: 5, name: "Okra soup & snail", price: 13000, image: "/e4.jpeg" },
+    { id: 5, name: "Okra soup & Goat Meat", price: 13000, image: "/e4.jpeg" },
+    { id: 5, name: "Okra soup & Cow Meat", price: 13000, image: "/e4.jpeg" },
+    { id: 5, name: "Okra soup & Fish", price: 13000, image: "/e4.jpeg" },
+    { id: 5, name: "Okra soup & Fish, Prones", price: 20000, image: "/e4.jpeg" },
+    { id: 5, name: "Okra soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e4.jpeg" },
+    { id: 5, name: "Okra soup & Prones", price: 15000, image: "/e4.jpeg" },
   ]
 
   return (

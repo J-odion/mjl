@@ -3,49 +3,15 @@ import ProductGrid from "@/components/ProductGrid"
 
 export default function FashionPage() {
   const fashionItems = [
-    {
-      id: 1,
-      name: "Summer Dress",
-      price: 89.99,
-      image: "/5.jpg",
-      description: "Light and comfortable summer dress perfect for hot days.",
-    },
-    {
-      id: 2,
-      name: "Casual Jeans",
-      price: 59.99,
-      image: "/6.jpg",
-      description: "Classic blue jeans with a modern fit.",
-    },
-    {
-      id: 3,
-      name: "Elegant Blouse",
-      price: 49.99,
-      image: "/7.jpg",
-      description: "Sophisticated blouse for formal occasions.",
-    },
-    {
-      id: 4,
-      name: "Formal Suit",
-      price: 199.99,
-      image: "/8.jpg",
-      description: "Premium quality suit for business meetings.",
-    },
-    {
-      id: 5,
-      name: "Winter Coat",
-      price: 129.99,
-      image: "/9.jpg",
-      description: "Warm winter coat with faux fur lining.",
-    },
-    {
-      id: 6,
-      name: "Leather Jacket",
-      price: 149.99,
-      image: "/6.jpg",
-      description: "Classic leather jacket for a timeless look.",
-    },
-    
+
+    { id: 1, name: "Depending on materia", price: 80000, image: "/f1.jpeg", description: "You are as elegant as can be, look like it!", },
+    { id: 2, name: "Depending on materia", price: 120000, image: "/f2.jpeg", description: "You are as elegant as can be, look like it!",  },
+    { id: 3, name: "Depending on materia", price: 80000, image: "/f3.jpeg", description: "You are as elegant as can be, look like it!",  },
+    { id: 4, name: "Depending on materia", price: 120000, image: "/f4.jpeg", description: "You are as elegant as can be, look like it!",  },
+    { id: 5, name: "Depending on materia", price: 120000, image: "/f5.jpeg" , description: "You are as elegant as can be, look like it!", },
+    { id: 6, name: "Depending on materia", price: 120000, image: "/f6.jpeg" , description: "You are as elegant as can be, look like it!", },
+    { id: 7, name: "Depending on materia", price: 120000, image: "/f7.jpeg", description: "You are as elegant as can be, look like it!",  },
+    { id: 8, name: "Depending on materia", price: 120000, image: "/f8.jpeg" , description: "You are as elegant as can be, look like it!", },
   ]
 
   return (

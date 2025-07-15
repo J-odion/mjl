@@ -3,12 +3,45 @@ import ProductGrid from "@/components/ProductGrid"
 
 export default function RestaurantPage() {
   const foodItems = [
+{ id: 1, name: "Afang soup & Snail", price: 13000, image: "/e1.jpeg", description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 1, name: "Afang soup & Fish", price: 13000, image: "/e1.jpeg" , description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction",},
+    { id: 2, name: "Afang soup & Goat Meat", price: 13000, image: "/e1.jpeg", description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 3, name: "Afang soup & Cow Meat", price: 13000, image: "/e1.jpeg", description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 4, name: "Afang soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e1.jpeg", description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+
+    { id: 5, name: "Ogbono soup & Snail", price: 13000, image: "/e4.jpeg", description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 6, name: "Ogbono soup & Goat Meat", price: 13000, image: "/e4.jpeg" , description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction",},
+    { id: 7, name: "Ogbono soup & Fish", price: 13000, image: "/e4.jpeg" , description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction",},
+    { id: 8, name: "Ogbono soup & Cow Meat", price: 13000, image: "/e4.jpeg" , description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction",},
+    { id: 9, name: "Ogbono soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e4.jpeg", description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+
+    { id: 10, name: "Vegetable soup & snail", price: 13000, image: "/e3.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 11, name: "Vegetable soup & Goat Meat", price: 13000, image: "/e3.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 12, name: "Vegetable soup & Fish", price: 13000, image: "/e3.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 13, name: "Vegetable soup & Cow Meat", price: 13000, image: "/e3.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 14, name: "Vegetable soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e3.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+
+    { id: 15, name: "Egusi soup & snail", price: 13000, image: "/e2.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction",},
+    { id: 16, name: "Egusi soup & Goat Meat", price: 13000, image: "/e2.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 17, name: "Egusi soup & Fish", price: 13000, image: "/e2.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 18, name: "Egusi soup & Cow Meat", price: 13000, image: "/e2.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 19, name: "Egusi soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e2.jpeg" },
+
+    { id: 20, name: "Okra soup & snail", price: 13000, image: "/e4.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 21, name: "Okra soup & Goat Meat", price: 13000, image: "/e4.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 22, name: "Okra soup & Cow Meat", price: 13000, image: "/e4.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 23, name: "Okra soup & Fish", price: 13000, image: "/e4.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 24, name: "Okra soup & Fish, Prones", price: 20000, image: "/e4.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 25, name: "Okra soup & Snail, Cow Meat or Goat Meat", price: 18000, image: "/e4.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+    { id: 26, name: "Okra soup & Prones", price: 15000, image: "/e4.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
+
+
     {
       id: 1,
       name: "Afang soup & snail",
       price: 13000,
       image: "/e1.jpeg",
-      description: "Fresh salmon fillet grilled to perfection with herbs.",
+      description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction",
     },
     {
       id: 2,

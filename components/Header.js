@@ -21,7 +21,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="font-bold text-xl">
               <Image
-                src={"/logo.png"}
+                src={"/logoo.jpg"}
                 width={50}
                 height={50}
                 className="object-cover"

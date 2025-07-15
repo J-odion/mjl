@@ -3,7 +3,6 @@ import ProductGrid from "@/components/ProductGrid"
 
 export default function FashionPage() {
   const fashionItems = [
-
     { id: 1, name: "Depending on materia", price: 80000, image: "/f1.jpeg", description: "You are as elegant as can be, look like it!", },
     { id: 2, name: "Depending on materia", price: 120000, image: "/f2.jpeg", description: "You are as elegant as can be, look like it!",  },
     { id: 3, name: "Depending on materia", price: 80000, image: "/f3.jpeg", description: "You are as elegant as can be, look like it!",  },

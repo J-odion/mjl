@@ -17,7 +17,7 @@ export default function ProductCarousel({ items }) {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide()
-    }, 3000)
+    }, 9000)
 
     // Clean up interval on component unmount
     return () => {

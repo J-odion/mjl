@@ -36,62 +36,6 @@ export default function RestaurantPage() {
     { id: 26, name: "Okra soup & Prones", price: 15000, image: "/e4.jpeg",description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction", },
 
 
-    {
-      id: 1,
-      name: "Afang soup & snail",
-      price: 13000,
-      image: "/e1.jpeg",
-      description: "Fresh, tasty, ravishing and delicious taste. You deserve filled to your satisfaction",
-    },
-    {
-      id: 2,
-      name: "Beef Burger",
-      price: 14.99,
-      image: "/2.jpg",
-      description: "Juicy beef patty with cheese, lettuce, and special sauce.",
-    },
-    {
-      id: 3,
-      name: "Caesar Salad",
-      price: 9.99,
-      image: "/3.jpg",
-      description: "Crisp romaine lettuce with Caesar dressing and croutons.",
-    },
-    {
-      id: 4,
-      name: "Pasta Carbonara",
-      price: 16.99,
-      image: "/4.jpg",
-      description: "Creamy pasta with bacon, eggs, and parmesan cheese.",
-    },
-    {
-      id: 1,
-      name: "Grilled Salmon",
-      price: 24.99,
-      image: "/1.jpg",
-      description: "Fresh salmon fillet grilled to perfection with herbs.",
-    },
-    {
-      id: 2,
-      name: "Beef Burger",
-      price: 14.99,
-      image: "/2.jpg",
-      description: "Juicy beef patty with cheese, lettuce, and special sauce.",
-    },
-    {
-      id: 3,
-      name: "Caesar Salad",
-      price: 9.99,
-      image: "/3.jpg",
-      description: "Crisp romaine lettuce with Caesar dressing and croutons.",
-    },
-    {
-      id: 4,
-      name: "Pasta Carbonara",
-      price: 16.99,
-      image: "/4.jpg",
-      description: "Creamy pasta with bacon, eggs, and parmesan cheese.",
-    },
    
   ]
 
